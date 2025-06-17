@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PickForMe - 당신의 감성 여행 플래너</title>
+    
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">PickForMe</div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="fade-in">여행의 시작, 설렘과 막막함 사이.<br>PickForMe가 함께할게요.</h1>
+                    <p class="fade-in" style="transition-delay: 0.2s;">
+                        단순한 플래너를 넘어, 당신의 모든 선택을 즐거운 여정으로 만들어 줄 
+                        감성 여행 메이트, PickForMe를 만나보세요.
+                    </p>
+                    <a href="https://github.com/dltmdals5912" target="_blank" class="btn btn-primary fade-in" style="transition-delay: 0.4s;">프로젝트 더 알아보기</a>
+                </div>
+                <div class="hero-image-wrapper fade-in" style="transition-delay: 0.3s;">
+                    <img src="images/screen_main_menu.jpg" alt="PickForMe 메인 화면">
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase">
+            <div class="container">
+                <h2 class="fade-in">PickForMe 사용법, 3단계로 끝내기</h2>
+                <p class="section-subtitle fade-in" style="transition-delay: 0.1s;">모든 과정이 즐거울 수 있도록, PickForMe는 사용 경험을 따라 친절하게 안내합니다. 카드에 마우스를 올려 확인해보세요.</p>
+                <div class="showcase-grid">
+                    <div class="experience-card fade-in" style="transition-delay: 0.2s;">
+                        <div class="image-container">
+                            <img src="images/screen_main_menu.jpg" alt="메인 메뉴 화면">
+                        </div>
+                        <div class="mockup-container">
+                            <div class="mockup-plan-item"></div>
+                            <div class="mockup-plan-item"></div>
+                            <div class="mockup-plan-item short"></div>
+                        </div>
+                        <div class="text-content">
+                            <h3><span class="step-number">1</span> 계획을 시작하세요</h3>
+                            <p>메인 화면에서 카드를 눌러 간편하게 여행 계획을 시작하세요.</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-card fade-in" style="transition-delay: 0.3s;">
+                        <div class="image-container">
+                            <img src="images/screen_plan_with_bear.jpg" alt="포미와 함께하는 계획 화면">
+                        </div>
+                        <div class="mockup-container">
+                            <div class="mockup-bear">ʕ •ᴥ•ʔ</div>
+                            <div class="mockup-bubble">이런 곳은 어때?</div>
+                        </div>
+                        <div class="text-content">
+                            <h3><span class="step-number">2</span> 포미의 깜짝 제안</h3>
+                            <p>계획이 막막할 땐, 귀여운 도우미 '포미'가 새로운 영감을 불어넣어 줄 거예요.</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-card fade-in" style="transition-delay: 0.4s;">
+                        <div class="image-container">
+                            <img src="images/screen_roulette.jpg" alt="행운의 룰렛 화면">
+                        </div>
+                        <div class="mockup-container">
+                            <div class="mockup-roulette">
+                                <div class="roulette-slice s1"></div>
+                                <div class="roulette-slice s2"></div>
+                                <div class="roulette-slice s3"></div>
+                                <div class="roulette-slice s4"></div>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h3><span class="step-number">3</span> 망설여질 땐, 룰렛으로!</h3>
+                            <p>두 가지 선택지 사이에서 고민되나요? '행운의 룰렛'으로 재미있게 결정해보세요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="onboarding">
+            <div class="container">
+                <h2 class="fade-in">당신의 기록, 안전하게 보관하세요</h2>
+                <p class="section-subtitle fade-in" style="transition-delay: 0.1s;">간편한 가입과 로그인으로 언제 어디서든 당신의 소중한 여행 계획을 열어볼 수 있습니다.</p>
+                 <div class="onboarding-grid">
+                    <div class="onboarding-card fade-in">
+                        <img src="images/screen_login.jpg" alt="로그인 화면">
+                        <h3>간편한 로그인</h3>
+                    </div>
+                    <div class="onboarding-card fade-in" style="transition-delay: 0.2s;">
+                        <img src="images/screen_signup.jpg" alt="회원가입 화면">
+                        <h3>새로운 시작</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="architecture">
+            <div class="container">
+                <h2 class="fade-in">개발자 들여다보기: 체계적인 아키텍처</h2>
+                <p class="section-subtitle fade-in" style="transition-delay: 0.1s;">
+                    PickForMe는 유지보수와 확장이 쉬운 구조를 목표로 설계되었습니다. 역할과 책임에 따라 명확하게 분리된 폴더 구조는 코드의 가독성을 높이고 안정적인 앱의 기반이 됩니다.
+                </p>
+                <div class="architecture-content fade-in" style="transition-delay: 0.2s;">
+                    <div class="file-tree">
+                        <ul>
+                            <li><span>📁 src</span>
+                                <ul>
+                                    <li><span>📁 assets</span> <span class="role">- 이미지, 폰트 등 정적 리소스</span></li>
+                                    <li><span>📁 components</span> <span class="role">- 재사용 가능한 공통 UI 컴포넌트</span></li>
+                                    <li><span>📁 context</span> <span class="role">- 로그인 세션 등 전역 상태 관리</span></li>
+                                    <li><span>📁 lib</span> <span class="role">- 외부 서비스(Supabase, Kakao) 연동</span></li>
+                                    <li><span>📁 navigation</span> <span class="role">- 화면 전환 및 네비게이션 구조 정의</span></li>
+                                    <li><span>📁 screens</span> <span class="role">- 앱의 실제 페이지(화면) 단위 UI</span></li>
+                                    <li><span>📁 theme</span> <span class="role">- 컬러, 폰트 등 디자인 시스템</span></li>
+                                </ul>
+                            </li>
+                            <li><span>📄 App.js</span> <span class="role">- 앱의 최상위 진입점</span></li>
+                            <li><span>📄 package.json</span> <span class="role">- 프로젝트 의존성 및 스크립트 관리</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="fade-in">만든 사람들</h2>
+                <div class="team-grid fade-in" style="transition-delay: 0.2s;">
+                    <div class="team-member">
+                        <p class="name">이승민</p>
+                        <p class="role">기획 및 개발</p>
+                    </div>
+                    <div class="team-member">
+                        <p class="name">김지원</p>
+                        <p class="role">기획 및 캐릭터 디자인</p>
+                    </div>
+                    <div class="team-member">
+                        <p class="name">김지민</p>
+                        <p class="role">기획 및 디자인</p>
+                    </div>
+                    <div class="team-member">
+                        <p class="name">송민성</p>
+                        <p class="role">기획 및 홍보</p>
+                    </div>
+                </div>
+                <div class="social-links fade-in" style="transition-delay: 0.4s;">
+                    <a href="https://www.instagram.com/pickforme_official/" target="_blank" title="인스타그램"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://github.com/dltmdals5912" target="_blank" title="깃허브"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <div class="container cta-content">
+                <div class="cta-text fade-in">
+                    <h2>이제, 여행을 떠나볼까요?</h2>
+                    <p>PickForMe와 함께라면 여행의 시작부터 끝까지, 모든 순간이 특별해집니다.</p>
+                    <a href="https://github.com/dltmdals5912" target="_blank" class="btn btn-dark">GitHub에서 코드 보기</a>
+                </div>
+                <div class="cta-image-wrapper fade-in" style="transition-delay: 0.2s;">
+                     <img src="images/bear_illustration.png" alt="계획을 돕는 곰 캐릭터 '포미'" class="cta-image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 PickForMe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
